@@ -1,0 +1,22 @@
+body {
+	background-color: rgb(255,255,255);
+	color: rgb(59,67,68);
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #3366cc;
+	margin: 0;
+}
+
+.main-header {
+    background-color: #E0E0E0;
+	color: #3366cc;
+	margin: 0;
+}
+
+.main-body {
+	margin: 10;
+}

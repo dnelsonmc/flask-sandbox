@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ {% block head %}
+  <meta charset="utf-8">
+  <meta name="description" content="Flask-sandbox - Index">
+  <meta name="author" content="dnelsonmc">
+
+  <title>{% block title %}{% endblock %} - Flask-sandbox</title>
+
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styles.css')}}" />
+ {% endblock %} 
+</head>
+
+<body>
+ {% block body %}
+
+   {% block content %}
+   {% endblock %}
+   
+  <script src="{{url_for('static', filename='js/scripts.js')}}"></script>
+ {% endblock %} 
+</body>
+</html>
+
