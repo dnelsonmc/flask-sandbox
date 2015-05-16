@@ -7,13 +7,14 @@ body {
 
 h1, h2 {
 	font-family: "Times New Roman", Times, serif;
-	color: #3366cc;
+    background-color: #3461b5;
+	color: #ffffff;
 	margin: 0;
 }
 
 .main-header {
-    background-color: #E0E0E0;
-	color: #3366cc;
+    background-color: #3461b5;
+	color: #ffffff;
 	margin: 0;
 }
 
